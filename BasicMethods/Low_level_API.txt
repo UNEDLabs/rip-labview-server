@@ -1,0 +1,35 @@
+Methods:
+
+- controls_lilst, indicators_list = open(expid)
+
+- close(expid)
+
+- start(expid) 
+
+- stop(expid)
+
+- read_names, values = get(expid, variables)
+
+- set(expid, variables, values)  
+
+
+NOTES:
+
+expid is the experience name (id) as configured in the globalConfiguration.vi,
+
+Variables and values are arrays of text variables = ["x", "y", ...], values = ["10", "a", ...]
+
+read_names return only the names of the variables that were succesfuly read (not all requested)
+
+each method returns also an error indicator.
+
+Now only numbers, text and booleans are avaliable:
+
+        LABVIEW <--> TEXT
+	int32   <--> integer 147
+        double  <--> real number 2.35
+        string  <--> string "hola"
+        boolean <--> true or false        
+
+other thypes (ie U23, float, array, cluster) --> error
+*if you need more types post and issue to add them
