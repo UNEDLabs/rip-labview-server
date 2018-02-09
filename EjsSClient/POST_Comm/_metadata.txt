@@ -1,0 +1,16 @@
+generated-with: Easy Java/Javascript Simulations, version 5.3, build 171116. Visit http://www.um.es/fem/Ejs
+title: Test - RIP LabVIEW Server
+logo-image: 
+author: Jesús Chacón
+copyright: 
+preferred-width: 800
+preferred-height: 600
+author-image: 
+source: RIPLabVIEW.ejss
+main-script: 
+main-simulation: RIPLabVIEW_Simulation.xhtml
+available-languages: 
+html-contents: RIPLabVIEW_Contents.xhtml
+html-main: RIPLabVIEW.xhtml
+page-title: Test - RIP LabVIEW Server
+page-index: RIPLabVIEW_Simulation.xhtml
