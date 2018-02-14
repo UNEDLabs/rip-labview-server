@@ -112,6 +112,7 @@
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
 			<Item Name="open.vi" Type="VI" URL="../BasicMethods/open.vi"/>
+			<Item Name="Process_HTTP_Query_Params.vi" Type="VI" URL="../WebServicesSubVIs/Process_HTTP_Query_Params.vi"/>
 			<Item Name="set.vi" Type="VI" URL="../BasicMethods/set.vi"/>
 			<Item Name="start.vi" Type="VI" URL="../BasicMethods/start.vi"/>
 			<Item Name="stop.vi" Type="VI" URL="../BasicMethods/stop.vi"/>
