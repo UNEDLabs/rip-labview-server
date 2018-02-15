@@ -54033,13 +54033,12 @@ labview.step = function(){
       console.log('Open');
     };
     source.onmessage = function(e) {
-      /*try {
+      try {
          var parsed = JSON.parse(e.data);
-         callback(parsed.result);
+         console.log(parsed.result);
       } catch(error) {
          console.log('Error while receiving data from server');
-      }*/
-	 console.log('data:'+e.data);
+      }
       if (e.id == "CLOSE") {
          console.log('Closing');
          source.close();

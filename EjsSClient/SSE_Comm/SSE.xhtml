@@ -54024,7 +54024,7 @@ labview.step = function(){
   _model.addToInitialization(function() {
     if (!__pagesEnabled["Init Page"]) return;
     //sarlab.setSarlabCredentials({ key: '123' });  // > Initialization.Init Page:1
-    var urlSSE = 'http://10.192.38.68:8080/RIP/SSE';
+    var urlSSE = 'http://10.192.38.68:8080/RIP/SSE?expId=TestOK';
     // Register to the SSE:
     var source = new EventSource(urlSSE);
     // Manage SSE Events
@@ -54035,11 +54035,11 @@ labview.step = function(){
     source.onmessage = function(e) {
       try {
          var parsed = JSON.parse(e.data);
-         callback(parsed.result);
+         console.log(parsed.result);
       } catch(error) {
          console.log('Error while receiving data from server');
       }
-	 //console.log('data:'+e.data);
+	//console.log('data:'+e.data);
       if (e.id == "CLOSE") {
          console.log('Closing');
          source.close();
