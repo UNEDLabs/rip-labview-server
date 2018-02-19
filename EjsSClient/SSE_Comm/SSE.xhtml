@@ -54036,21 +54036,26 @@ labview.step = function(){
       console.log('Open');
     };
     source.onmessage = function(e) {
-      try {
+      try { // No error
          var parsed = JSON.parse(e.data);
 	   console.log(parsed.result);
-      } catch(error) {
+      } catch(error) { // Server returns an error in data json
 	   try {
-	   	console.log(e.data);
-	   } catch (error) {
+		var parsed = JSON.parse(e.data);
+		console.log(parsed);
+	   } catch (error) { // Unexpected error
          	console.log('Error while receiving data from server');
 	   }
       }
-      if (e.id == "CLOSE") {
-         console.log('Closing');
-         source.close();
-      }
     };
+    source.addEventListener('CLOSE', function(e) {
+    	try {
+	   var parsed = JSON.parse(e.data);
+  	   console.log(parsed.error);
+	} catch (error) {}
+	console.log('Closing');
+	source.close();
+    }, false);
   });
 
   _model.addToFixedRelations(function() { _isPaused = _model.isPaused(); _isPlaying = _model.isPlaying(); });
