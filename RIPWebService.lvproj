@@ -21,7 +21,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">99</Property>
+			<Property Name="Bld_version.build" Type="Int">115</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +35,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">99</Property>
+			<Property Name="ws.version.build" Type="Int">115</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -94,7 +94,9 @@
 			<Item Name="close.vi" Type="VI" URL="../BasicMethods/close.vi"/>
 			<Item Name="get.vi" Type="VI" URL="../BasicMethods/get.vi"/>
 			<Item Name="GetPathFromName.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetPathFromName.vi"/>
+			<Item Name="GetTypes.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetTypes.vi"/>
 			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
+			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Cluster.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Cluster.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Poly.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Poly.vi"/>
 			<Item Name="JSONRPC-ArrayToString_String.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_String.vi"/>

@@ -90,6 +90,16 @@ function RIPClient(host, port) {
     set: 'set', // Set some variables in the server
     start: 'start', // Start a new Experience
     stop: 'stop', // Stop a running Experience
+    info: 'info', // Start a new Experience
+  }
+
+  ripclient.info = function(expid, callback) {
+console.log('info: ' + this.methods.info);
+    if(expid == undefined) {
+      ripclient.invoke(this.methods.info, [], callback);
+    } else {
+      ripclient.invoke(this.methods.info, ["TestOK"], callback);
+    }
   }
 
   ripclient.start = function(expid, callback) {
@@ -519,7 +529,7 @@ ripclient.step = function(callback) {
           _view.field2.linkProperty("Value",  function() { return intout; }, function(_v) { intout = _v; } ); // HtmlView Page linking property 'Value' for element 'field2'
           _view.textField2.linkProperty("Value",  function() { return stringout; }, function(_v) { stringout = _v; } ); // HtmlView Page linking property 'Value' for element 'textField2'
           _view.start.setAction("OnClick", function(_data,_info) {
-  ripclient.start("TestOK", onStart);
+  ripclient.info("TestOK", onStart);
 
 }); // HtmlView Page setting action 'OnClick' for element 'start'
           _view.set.setAction("OnClick", function(_data,_info) {
