@@ -19,6 +19,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="BasicMethods" Type="Folder" URL="../BasicMethods">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Configuration" Type="Folder" URL="../Configuration">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
 			<Property Name="Bld_version.build" Type="Int">115</Property>
@@ -90,12 +96,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CheckPath.vi" Type="VI" URL="../BasicMethods/Sub_Methods/CheckPath.vi"/>
-			<Item Name="close.vi" Type="VI" URL="../BasicMethods/close.vi"/>
-			<Item Name="get.vi" Type="VI" URL="../BasicMethods/get.vi"/>
-			<Item Name="GetPathFromName.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetPathFromName.vi"/>
-			<Item Name="GetTypes.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetTypes.vi"/>
-			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
 			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Cluster.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Cluster.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Poly.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Poly.vi"/>
@@ -113,11 +113,7 @@
 			<Item Name="JSONRPC-InvokeMethod.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeMethod.vi"/>
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
-			<Item Name="open.vi" Type="VI" URL="../BasicMethods/open.vi"/>
 			<Item Name="Process_HTTP_Query_Params.vi" Type="VI" URL="../WebServicesSubVIs/Process_HTTP_Query_Params.vi"/>
-			<Item Name="set.vi" Type="VI" URL="../BasicMethods/set.vi"/>
-			<Item Name="start.vi" Type="VI" URL="../BasicMethods/start.vi"/>
-			<Item Name="stop.vi" Type="VI" URL="../BasicMethods/stop.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

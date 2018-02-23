@@ -25,11 +25,11 @@ each method returns also an error indicator.
 
 Now only numbers, text and booleans are avaliable:
 
-        LABVIEW <--> TEXT
-	int32   <--> integer 147
-        double  <--> real number 2.35
-        string  <--> string "hola"
-        boolean <--> true or false        
+ LABVIEW FORMAT                 <-->   NAME      <-->  Example
 
-other thypes (ie U23, float, array, cluster) --> error
-*if you need more types post and issue to add them
+ int, Unsigned int              <-->   int       <-->  147
+ Single, Extended double Float  <-->  float      <-->  1.28e-10
+ fixed point                    <-->  float      <-->  2.35
+ string                         <-->  string     <-->  "hola"
+ boolean                        <-->  boolean    <-->  true or false        
+ other types (array, cluster...)<-->  Unsuported 
