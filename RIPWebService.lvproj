@@ -19,6 +19,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="get_numeric_type_info.vi" Type="VI" URL="../BasicMethods/Sub_Methods/get_numeric_type_info.vi"/>
+		<Item Name="Prueba_tipos.vi" Type="VI" URL="../BasicMethods/Sub_Methods/Prueba_tipos.vi"/>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
 			<Property Name="Bld_version.build" Type="Int">192</Property>
@@ -116,7 +118,6 @@
 			<Item Name="JSONRPC-ArrayToString_Poly.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Poly.vi"/>
 			<Item Name="JSONRPC-ArrayToString_String.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_String.vi"/>
 			<Item Name="JSONRPC-BuildError.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildError.vi"/>
-			<Item Name="JSONRPC-BuildInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildInfo.vi"/>
 			<Item Name="JSONRPC-BuildResponse.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildResponse.vi"/>
 			<Item Name="JSONRPC-Error.vi" Type="VI" URL="../JsonRpc/JSONRPC-Error.vi"/>
 			<Item Name="JSONRPC-GetAsArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsArray.vi"/>
@@ -134,6 +135,7 @@
 			<Item Name="set.vi" Type="VI" URL="../BasicMethods/set.vi"/>
 			<Item Name="start.vi" Type="VI" URL="../BasicMethods/start.vi"/>
 			<Item Name="stop.vi" Type="VI" URL="../BasicMethods/stop.vi"/>
+			<Item Name="VariantToType.vi" Type="VI" URL="../BasicMethods/Sub_Methods/VariantToType.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
