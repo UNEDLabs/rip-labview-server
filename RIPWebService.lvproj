@@ -19,8 +19,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="get_numeric_type_info.vi" Type="VI" URL="../BasicMethods/Sub_Methods/get_numeric_type_info.vi"/>
-		<Item Name="Prueba_tipos.vi" Type="VI" URL="../BasicMethods/Sub_Methods/Prueba_tipos.vi"/>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
 			<Property Name="Bld_version.build" Type="Int">192</Property>
@@ -110,6 +108,7 @@
 			<Item Name="CheckPath.vi" Type="VI" URL="../BasicMethods/Sub_Methods/CheckPath.vi"/>
 			<Item Name="close.vi" Type="VI" URL="../BasicMethods/close.vi"/>
 			<Item Name="get.vi" Type="VI" URL="../BasicMethods/get.vi"/>
+			<Item Name="get_numeric_type_info.vi" Type="VI" URL="../BasicMethods/Sub_Methods/get_numeric_type_info.vi"/>
 			<Item Name="GetPathFromName.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetPathFromName.vi"/>
 			<Item Name="GetTypes.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetTypes.vi"/>
 			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
@@ -130,6 +129,7 @@
 			<Item Name="JSONRPC-InvokeMethod.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeMethod.vi"/>
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
+			<Item Name="number_to_string.vi" Type="VI" URL="../BasicMethods/Sub_Methods/number_to_string.vi"/>
 			<Item Name="open.vi" Type="VI" URL="../BasicMethods/open.vi"/>
 			<Item Name="Process_HTTP_Query_Params.vi" Type="VI" URL="../WebServicesSubVIs/Process_HTTP_Query_Params.vi"/>
 			<Item Name="set.vi" Type="VI" URL="../BasicMethods/set.vi"/>
