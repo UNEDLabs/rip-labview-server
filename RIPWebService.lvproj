@@ -19,9 +19,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="BasicMethods" Type="Folder" URL="../BasicMethods">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">298</Property>
+			<Property Name="Bld_version.build" Type="Int">303</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +38,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">298</Property>
+			<Property Name="ws.version.build" Type="Int">303</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -175,12 +178,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CheckPath.vi" Type="VI" URL="../BasicMethods/Sub_Methods/CheckPath.vi"/>
-			<Item Name="close.vi" Type="VI" URL="../BasicMethods/close.vi"/>
-			<Item Name="get.vi" Type="VI" URL="../BasicMethods/get.vi"/>
-			<Item Name="get_numeric_type_info.vi" Type="VI" URL="../BasicMethods/Sub_Methods/get_numeric_type_info.vi"/>
-			<Item Name="GetPathFromName.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetPathFromName.vi"/>
-			<Item Name="GetTypes.vi" Type="VI" URL="../BasicMethods/Sub_Methods/GetTypes.vi"/>
 			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
 			<Item Name="hil.dll" Type="Document" URL="/&lt;resource&gt;/hil.dll"/>
 			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
@@ -205,15 +202,9 @@
 			<Item Name="JSONRPC-RetrieveMethodsInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-RetrieveMethodsInfo.vi"/>
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
-			<Item Name="number_to_string.vi" Type="VI" URL="../BasicMethods/Sub_Methods/number_to_string.vi"/>
-			<Item Name="open.vi" Type="VI" URL="../BasicMethods/open.vi"/>
-			<Item Name="set.vi" Type="VI" URL="../BasicMethods/set.vi"/>
 			<Item Name="Set_Close_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Close_Method_Info.vi"/>
 			<Item Name="Set_Get_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Get_Method_Info.vi"/>
 			<Item Name="Set_Start_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Start_Method_Info.vi"/>
-			<Item Name="start.vi" Type="VI" URL="../BasicMethods/start.vi"/>
-			<Item Name="stop.vi" Type="VI" URL="../BasicMethods/stop.vi"/>
-			<Item Name="VariantToType.vi" Type="VI" URL="../BasicMethods/Sub_Methods/VariantToType.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
