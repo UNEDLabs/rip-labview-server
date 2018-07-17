@@ -1,34 +1,10 @@
-# Libraries
-*.lvlibp
-*.llb
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps
-Private/LV/Ernesto.rar
-Private/LV/controlador.txt
-Private/LV/FuncionaPerfecto 10-2-2013.rar
-Private/LV/Laboratorio.lvproj
 Private/LV/LLAMADA EXTERNA/ControllerCall/BasicControlCall.vi
 Private/LV/LLAMADA EXTERNA/ControllerCall/BasicControlCall2.vi
+Private/LV/LLAMADA EXTERNA/GenericController.aliases
+Private/LV/LLAMADA EXTERNA/GenericController.lvlps
 Private/LV/LLAMADA EXTERNA/GenericController.lvproj
 Private/LV/LLAMADA EXTERNA/Test.vi
 Private/LV/LLAMADA EXTERNA/Test2.vi
-JsonRpc/JSONRPC-Info.vi
 Private/LV/pendulo.vi
-Private/LV/penduloJs.vi
-Private/LV/viejo/Primero que funciona completo 5-12-2013.rar
-Private/LV/viejo/controlador.txt
-Private/LV/viejo/Ernesto.rar
-Private/LV/viejo/FuncionaPerfecto 10-2-2013.rar
-Private/LV/viejo/PenduloFurutaJilXML2018.zip
-Private/LV/viejo/penduloJs.vi
+viejo.zip
