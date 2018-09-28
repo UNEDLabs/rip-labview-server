@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -24,7 +24,7 @@
 		</Item>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">193</Property>
+			<Property Name="Bld_version.build" Type="Int">219</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -38,7 +38,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">193</Property>
+			<Property Name="ws.version.build" Type="Int">219</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -101,13 +101,16 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Get Type Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Data Type/Get Type Information.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="FlexMotion32.dll" Type="Document" URL="FlexMotion32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
 			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
@@ -122,18 +125,22 @@
 			<Item Name="JSONRPC-GetAsArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsArray.vi"/>
 			<Item Name="JSONRPC-GetAsString.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsString.vi"/>
 			<Item Name="JSONRPC-GetAsType.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsType.vi"/>
+			<Item Name="JSONRPC-GetCamerasInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetCamerasInfo.vi"/>
 			<Item Name="JSONRPC-GetMethodInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetMethodInfo.vi"/>
 			<Item Name="JSONRPC-GetMethodParams.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetMethodParams.vi"/>
 			<Item Name="JSONRPC-GetNextValue.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetNextValue.vi"/>
 			<Item Name="JSONRPC-GetValue.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetValue.vi"/>
 			<Item Name="JSONRPC-Info.vi" Type="VI" URL="../JsonRpc/JSONRPC-Info.vi"/>
+			<Item Name="JSONRPC-InvokeJSON.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeJSON.vi"/>
 			<Item Name="JSONRPC-InvokeMethod.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeMethod.vi"/>
 			<Item Name="JSONRPC-ReadablesWritablesToString.vi" Type="VI" URL="../JsonRpc/JSONRPC-ReadablesWritablesToString.vi"/>
 			<Item Name="JSONRPC-RetrieveMethodsInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-RetrieveMethodsInfo.vi"/>
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
+			<Item Name="nimotion.dll" Type="Document" URL="nimotion.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Set_Close_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Close_Method_Info.vi"/>
-			<Item Name="Set_Get_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Get_Method_Info.vi"/>
 			<Item Name="Set_Start_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Start_Method_Info.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
