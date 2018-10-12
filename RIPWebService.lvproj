@@ -24,7 +24,7 @@
 		</Item>
 		<Item Name="RIP" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">243</Property>
+			<Property Name="Bld_version.build" Type="Int">246</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -38,7 +38,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">243</Property>
+			<Property Name="ws.version.build" Type="Int">246</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -114,13 +114,13 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Add_VI_Connection.vi" Type="VI" URL="../WebServicesSubVIs/Add_VI_Connection.vi"/>
-			<Item Name="Add_VI_Disconnection.vi" Type="VI" URL="../WebServicesSubVIs/Add_VI_Disconnection.vi"/>
-			<Item Name="Check_Exp_Exists.vi" Type="VI" URL="../WebServicesSubVIs/Check_Exp_Exists.vi"/>
-			<Item Name="Cookies.vi" Type="VI" URL="../WebServicesSubVIs/Cookies.vi"/>
-			<Item Name="Events.vi" Type="VI" URL="../WebServicesSubVIs/Events.vi"/>
+			<Item Name="Add_VI_Connection.vi" Type="VI" URL="../SSESubVIs/Connections/Add_VI_Connection.vi"/>
+			<Item Name="Add_VI_Disconnection.vi" Type="VI" URL="../SSESubVIs/Connections/Add_VI_Disconnection.vi"/>
+			<Item Name="Check_Exp_Exists.vi" Type="VI" URL="../SSESubVIs/Check_Exp_Exists.vi"/>
+			<Item Name="Cookies.vi" Type="VI" URL="../SSESubVIs/Headers/Cookies.vi"/>
+			<Item Name="Events_Composer.vi" Type="VI" URL="../SSESubVIs/Events/Events_Composer.vi"/>
 			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
-			<Item Name="Headers.vi" Type="VI" URL="../WebServicesSubVIs/Headers.vi"/>
+			<Item Name="Headers.vi" Type="VI" URL="../SSESubVIs/Headers/Headers.vi"/>
 			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Cluster.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Cluster.vi"/>
 			<Item Name="JSONRPC-ArrayToString_Poly.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Poly.vi"/>
@@ -145,10 +145,12 @@
 			<Item Name="JSONRPC-RetrieveMethodsInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-RetrieveMethodsInfo.vi"/>
 			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
 			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
-			<Item Name="Request_URL.vi" Type="VI" URL="../WebServicesSubVIs/Request_URL.vi"/>
-			<Item Name="Reset_VI_Connections.vi" Type="VI" URL="../WebServicesSubVIs/Reset_VI_Connections.vi"/>
-			<Item Name="Set_Close_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Close_Method_Info.vi"/>
-			<Item Name="Set_Start_Method_Info.vi" Type="VI" URL="../WebServicesSubVIs/Set_Start_Method_Info.vi"/>
+			<Item Name="Request_URL.vi" Type="VI" URL="../SSESubVIs/Headers/Request_URL.vi"/>
+			<Item Name="Reset_VI_Connections.vi" Type="VI" URL="../SSESubVIs/Connections/Reset_VI_Connections.vi"/>
+			<Item Name="Set_Close_Method_Info.vi" Type="VI" URL="../SSESubVIs/Set_Close_Method_Info.vi"/>
+			<Item Name="Set_Start_Method_Info.vi" Type="VI" URL="../SSESubVIs/Set_Start_Method_Info.vi"/>
+			<Item Name="Store_Missed_Events.vi" Type="VI" URL="../SSESubVIs/Events/Store_Missed_Events.vi"/>
+			<Item Name="Write_To_File.vi" Type="VI" URL="../SSESubVIs/Events/Write_To_File.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
