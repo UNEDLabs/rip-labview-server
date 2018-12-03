@@ -1,5 +1,9 @@
 Methods:
 
+- basicinfo()
+
+- experienceinfo(expid)
+
 - controls_lilst, indicators_list = open(expid)
 
 - close(expid)
@@ -23,7 +27,7 @@ read_names return only the names of the variables that were succesfuly read (not
 
 each method returns also an error indicator.
 
-Now only numbers, text and booleans are avaliable:
+At the moment, only numbers, text and booleans are avaliable:
 
  LABVIEW FORMAT                 <-->   NAME      <-->  Example
 
