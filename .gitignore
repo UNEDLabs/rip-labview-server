@@ -14,3 +14,10 @@
 # Metadata
 *.aliases
 *.lvlps
+Private/LV/LLAMADA EXTERNA/ControllerCall/BasicControlCall.vi
+Private/LV/LLAMADA EXTERNA/ControllerCall/BasicControlCall2.vi
+Private/LV/LLAMADA EXTERNA/GenericController.lvproj
+Private/LV/LLAMADA EXTERNA/Test.vi
+Private/LV/LLAMADA EXTERNA/Test2.vi
+Private/LV/pendulo.vi
+viejo.zip
