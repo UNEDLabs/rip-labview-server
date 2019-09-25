@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -20,6 +20,18 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BasicMethods" Type="Folder" URL="../BasicMethods">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Configuration" Type="Folder" URL="../Configuration">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="JsonRpc" Type="Folder" URL="../JsonRpc">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="SSESubVIs" Type="Folder" URL="../SSESubVIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="WebServicesSubVIs" Type="Folder" URL="../WebServicesSubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="RIP" Type="Web Service">
@@ -100,12 +112,10 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -115,43 +125,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Add_VI_Connection.vi" Type="VI" URL="../SSESubVIs/Connections/Add_VI_Connection.vi"/>
-			<Item Name="Add_VI_Disconnection.vi" Type="VI" URL="../SSESubVIs/Connections/Add_VI_Disconnection.vi"/>
-			<Item Name="Check_Exp_Exists.vi" Type="VI" URL="../SSESubVIs/Check_Exp_Exists.vi"/>
-			<Item Name="Cookies.vi" Type="VI" URL="../SSESubVIs/Headers/Cookies.vi"/>
-			<Item Name="Events_Composer.vi" Type="VI" URL="../SSESubVIs/Events/Events_Composer.vi"/>
-			<Item Name="Global_Configurations.vi" Type="VI" URL="../Configuration/Global_Configurations.vi"/>
-			<Item Name="Headers.vi" Type="VI" URL="../SSESubVIs/Headers/Headers.vi"/>
-			<Item Name="JSONRPC-ArrayIsEmpty.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayIsEmpty.vi"/>
-			<Item Name="JSONRPC-ArrayToString_Cluster.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Cluster.vi"/>
-			<Item Name="JSONRPC-ArrayToString_Poly.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_Poly.vi"/>
-			<Item Name="JSONRPC-ArrayToString_String.vi" Type="VI" URL="../JsonRpc/JSONRPC-ArrayToString_String.vi"/>
-			<Item Name="JSONRPC-BuildError.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildError.vi"/>
-			<Item Name="JSONRPC-BuildInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildInfo.vi"/>
-			<Item Name="JSONRPC-BuildMethodInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildMethodInfo.vi"/>
-			<Item Name="JSONRPC-BuildResponse.vi" Type="VI" URL="../JsonRpc/JSONRPC-BuildResponse.vi"/>
-			<Item Name="JSONRPC-Error.vi" Type="VI" URL="../JsonRpc/JSONRPC-Error.vi"/>
-			<Item Name="JSONRPC-GetAsArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsArray.vi"/>
-			<Item Name="JSONRPC-GetAsString.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsString.vi"/>
-			<Item Name="JSONRPC-GetAsType.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetAsType.vi"/>
-			<Item Name="JSONRPC-GetCamerasInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetCamerasInfo.vi"/>
-			<Item Name="JSONRPC-GetMethodInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetMethodInfo.vi"/>
-			<Item Name="JSONRPC-GetMethodParams.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetMethodParams.vi"/>
-			<Item Name="JSONRPC-GetNextValue.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetNextValue.vi"/>
-			<Item Name="JSONRPC-GetValue.vi" Type="VI" URL="../JsonRpc/JSONRPC-GetValue.vi"/>
-			<Item Name="JSONRPC-Info.vi" Type="VI" URL="../JsonRpc/JSONRPC-Info.vi"/>
-			<Item Name="JSONRPC-InvokeForJSONResult.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeForJSONResult.vi"/>
-			<Item Name="JSONRPC-InvokeMethod.vi" Type="VI" URL="../JsonRpc/JSONRPC-InvokeMethod.vi"/>
-			<Item Name="JSONRPC-ReadablesWritablesToString.vi" Type="VI" URL="../JsonRpc/JSONRPC-ReadablesWritablesToString.vi"/>
-			<Item Name="JSONRPC-RetrieveMethodsInfo.vi" Type="VI" URL="../JsonRpc/JSONRPC-RetrieveMethodsInfo.vi"/>
-			<Item Name="JSONRPC-RIPDispatcher.vi" Type="VI" URL="../JsonRpc/JSONRPC-RIPDispatcher.vi"/>
-			<Item Name="JSONRPC-SplitArray.vi" Type="VI" URL="../JsonRpc/JSONRPC-SplitArray.vi"/>
-			<Item Name="Request_URL.vi" Type="VI" URL="../SSESubVIs/Headers/Request_URL.vi"/>
-			<Item Name="Reset_VI_Connections.vi" Type="VI" URL="../SSESubVIs/Connections/Reset_VI_Connections.vi"/>
-			<Item Name="Set_Close_Method_Info.vi" Type="VI" URL="../SSESubVIs/Set_Close_Method_Info.vi"/>
-			<Item Name="Set_Start_Method_Info.vi" Type="VI" URL="../SSESubVIs/Set_Start_Method_Info.vi"/>
-			<Item Name="Store_Missed_Events.vi" Type="VI" URL="../SSESubVIs/Events/Store_Missed_Events.vi"/>
-			<Item Name="Write_To_File.vi" Type="VI" URL="../SSESubVIs/Events/Write_To_File.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
